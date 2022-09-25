@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+// The FileState service definition.
+service FileState{
+  // RPC service with request/response information
+  rpc ExistsInState (ExistsInStateRequest) returns (ExistsInStateResponse) {}
+}
+
+// The request message containing file path
+message ExistsInStateRequest{
+  string path = 1;
+}
+
+// The response message returning if file is present in 
+message ExistsInStateResponse{
+  bool exists = 1;
+}
