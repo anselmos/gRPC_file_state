@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "423ce35be7db00b61be7184f799a62645eb07659694f7d908f3227141dc61825"
+            "sha256": "a9b2858e0b1c3d8608f4de31629485b69bed0b87dc5d8b60e7ce6c283701907e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -118,6 +118,14 @@
             "index": "pypi",
             "version": "==1.49.1"
         },
+        "mypy-protobuf": {
+            "hashes": [
+                "sha256:15604f6943b16c05db646903261e3b3e775cf7f7990b7c37b03d043a907b650d",
+                "sha256:24f3b0aecb06656e983f58e07c732a90577b9d7af3e1066fc2b663bbf0370248"
+            ],
+            "index": "pypi",
+            "version": "==3.3.0"
+        },
         "protobuf": {
             "hashes": [
                 "sha256:07a0bb9cc6114f16a39c866dc28b6e3d96fa4ffb9cc1033057412547e6e75cb9",
@@ -151,8 +159,15 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.16.0"
+        },
+        "types-protobuf": {
+            "hashes": [
+                "sha256:0dad3a5009895c985a56e2837f61902bad9594151265ac0ee907bb16d0b01eb7",
+                "sha256:5082437afe64ce3b31c8db109eae86e02fda11e4d5f9ac59cb8578a8a138aa70"
+            ],
+            "version": "==3.20.4"
         }
     },
     "develop": {}
