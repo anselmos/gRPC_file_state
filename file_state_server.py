@@ -11,7 +11,10 @@ class FileState(file_state_pb2_grpc.FileStateServicer):
 
     def ExistsInState(self, request, context):
         response = random.choice(self.choices)
-        return file_state_pb2.ExistsInStateResponse(exists=response)
+
+        return file_state_pb2.ExistsInStateResponse(
+            exists=response,
+        )
 
 
 def serve():
